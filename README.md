@@ -19,6 +19,7 @@ This project demonstrates various Git concepts including:
 - Emergency services
 - Pharmacy management
 - Billing system
+<img width="1120" height="805" alt="image" src="https://github.com/user-attachments/assets/dcb78dd4-cd87-4a24-91f8-d52787b4967d" />
 
 ## Author
 Syed Mehfooz
