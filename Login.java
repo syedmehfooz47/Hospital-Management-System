@@ -8,8 +8,9 @@ public class Login {
     }
 
     public boolean authenticate() {
-        // Simple authentication logic
-        if (username != null && password != null) {
+        // Simple authentication logic with improved validation
+        if (username != null && !username.isEmpty() && 
+            password != null && !password.isEmpty()) {
             if (username.equals("admin") && password.equals("admin123")) {
                 System.out.println("Login successful!");
                 return true;
