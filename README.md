@@ -16,6 +16,7 @@ This project demonstrates various Git concepts including:
 - Doctor management
 - Appointment scheduling
 - Medical records management
+- Emergency services (Added from main repo)
 
 ## Author
 Syed Mehfooz
