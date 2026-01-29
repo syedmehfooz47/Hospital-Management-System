@@ -24,6 +24,13 @@ public class Doctor {
     public String getContact() { return contact; }
     public void setContact(String contact) { this.contact = contact; }
 
+    public void displayDoctorInfo() {
+        System.out.println("Doctor Information:");
+        System.out.println("ID: " + doctorId);
+        System.out.println("Name: " + name);
+        System.out.println("Specialization: " + specialization);
+    }
+
     @Override
     public String toString() {
         return "Doctor [ID=" + doctorId + ", Name=" + name + ", Specialization=" + specialization + "]";
