@@ -1,6 +1,7 @@
 # Hospital Management System
 
 This is a hospital management system project created for learning Git version control.
+Version: 1.0 (Master Branch Update)
 
 ## Project Overview
 This project demonstrates various Git concepts including:
