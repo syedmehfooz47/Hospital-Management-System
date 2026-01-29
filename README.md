@@ -18,6 +18,7 @@ This project demonstrates various Git concepts including:
 - Medical records management
 - Emergency services
 - Pharmacy management
+- Billing system
 
 ## Author
 Syed Mehfooz
