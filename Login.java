@@ -11,7 +11,8 @@ public class Login {
         // Simple authentication logic with improved validation
         if (username != null && !username.isEmpty() && 
             password != null && !password.isEmpty()) {
-            if (username.equals("admin") && password.equals("admin123")) {
+            // Fixed: Added trim() to remove whitespace issues
+            if (username.trim().equals("admin") && password.trim().equals("admin123")) {
                 System.out.println("Login successful!");
                 return true;
             }
