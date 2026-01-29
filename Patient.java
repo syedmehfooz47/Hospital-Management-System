@@ -29,6 +29,14 @@ public class Patient {
     public String getAddress() { return address; }
     public void setAddress(String address) { this.address = address; }
 
+    public void displayPatientInfo() {
+        System.out.println("Patient Information:");
+        System.out.println("ID: " + patientId);
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Contact: " + contact);
+    }
+
     @Override
     public String toString() {
         return "Patient [ID=" + patientId + ", Name=" + name + ", Age=" + age + "]";
